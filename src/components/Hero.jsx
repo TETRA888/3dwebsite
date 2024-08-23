@@ -13,8 +13,7 @@ const Hero = () => {
       <div>
         <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Asad</span></h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-        I'm a Computer Engineering student with a passion for combining technical and artistic skills in 3D graphics, VR, and AR. I have experience in programming for computer graphics, developing VR environments, and integrating hardware with software to create immersive digital experiences. 
-        My expertise in Python and tools like Blender and Unreal Engine, along with my hands-on hardware knowledge, enables me to bring complex and creative ideas to life.
+        A Computer Engineering student who merges technical precision with artistic vision in 3D
         <br className='sm:block hidden'/>
         </p>
       </div>
