@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "VR Developer Intern",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "3D Mesh Scripting Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Sensor Integration Co-Lead",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UC Davis Student Fees Co-Chair",
       icon: creator,
     },
   ];
