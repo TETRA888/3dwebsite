@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "VR Developer Intern",
+      title: "VR Developer",
       icon: web,
     },
     {
-      title: "3D Mesh Generation Developer",
+      title: "3D Mesh Developer",
       icon: mobile,
     },
     {
-      title: "Pavement Sensor Integration Developer",
+      title: "Pavement Sensor Developer",
       icon: backend,
     },
     {
-      title: "UC Davis Student Fees Co-Chair",
+      title: "Student Fees Co-Chair",
       icon: creator,
     },
   ];
