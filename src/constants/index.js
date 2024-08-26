@@ -46,11 +46,11 @@ import {
       icon: web,
     },
     {
-      title: "3D Mesh Scripting Developer",
+      title: "3D Mesh Generation Developer",
       icon: mobile,
     },
     {
-      title: "Sensor Integration Co-Lead",
+      title: "Pavement Sensor Integration Developer",
       icon: backend,
     },
     {
@@ -124,8 +124,8 @@ import {
       points: [
         "HVS Setup: Assisted in building the Heavy Vehicle Simulator (HVS) for Caltrans.",
         "Data Logging System: Developed a system to monitor test tracks using strain gauge and thermocouple sensors.",
-        "Technical Assembly: Used Campbell Scientific peripherals to build and program the data logger.",
-        "Team Collaboration: Worked with PhD and M.S. students on the Caltrans Fiber project.",
+        "Technical Assembly: Used Campbell Scientific peripherals to build and program the data logger in C.",
+        "Team Collaboration: Worked with Ph.D. and M.S. students on the Caltrans Fiber project.",
       ],
     },
     {
