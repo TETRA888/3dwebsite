@@ -23,6 +23,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    blender,
+    clogo,
+    conda,
+    ue5,
+    pytorch,
   } from "../assets";
   
   export const navLinks = [
@@ -61,6 +66,30 @@ import {
   
   const technologies = [
     {
+      name: "Blender",
+      icon: blender,
+    },
+    {
+      name: "Pytorch",
+      icon: pytorch,
+    },
+    {
+      name: "C language",
+      icon: clogo,
+    },
+    {
+      name: "Unreal Engine 5",
+      icon: ue5,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -73,44 +102,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   

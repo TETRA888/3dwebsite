@@ -19,7 +19,12 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
+import blender from "./tech/blender.png";
+import clogo from "./tech/C.png";
+import conda from "./tech/conda.png";
+import ue5 from "./tech/unrealengine5.png";
+import pytorch from "./tech/pytorch.png";
 
 import meta from "./company/blender.png";
 import shopify from "./company/ucdavis.png";
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  blender,
+  clogo,
+  conda,
+  ue5,
+  pytorch,
 };
