@@ -12,9 +12,6 @@ const App= () => {
       </div>
       <About />
       <Experience />
-      <div className = "text-center mt-4 text-secondary text-justify text-2xl flex flex-col items-center">
-        My Current Solution Stack
-      </div>
       <Tech />
       <Works />
       <Feedbacks />
