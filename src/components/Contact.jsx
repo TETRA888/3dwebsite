@@ -16,9 +16,42 @@ const Contact = () => {
   })
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const {name, value} = e.target;
+    setForm({...form, [name]: value})
+  }
 
-  const handleSubmit = (e) => {}
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+    // QvYxL67LvQcimcKfJ
+    // template_d6davvi
+    // service_ztkzorp
+    emailjs.send(
+      'service_hgfvmu6', 
+      'template_d6davvi',
+      {
+        from_name: form.name,
+        to_name: 'Asad',
+        from_email: form.email,
+        to_email: 'amelibaev@ucdavis.edu',
+        message: form.message,
+      },
+      'QvYxL67LvQcimcKfJ' 
+    ).then(() =>{
+      setLoading(false);
+      alert('Thank you! I will try my best to respond in a timely manner.');
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      })
+    }, (error) => {
+      setLoading(false)
+      console.log(error);
+      alert('Uh Oh, Something went wrong.')
+    })
+  }
 
   return (
     <div className = "xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
