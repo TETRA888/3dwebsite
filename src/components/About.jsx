@@ -35,7 +35,7 @@ const About = () => {
     <section className="flex flex-col items-center">
       <motion.div variants = {textVariant()} className = "text-center">
         <p className= {styles.sectionSubText}>Introduction</p>
-        <h2 className= {styles.sectionHeadText}>Professional Summary.</h2>
+        <h2 className= {styles.sectionHeadText}><span className='text-[#FF915E]'> Professional </span> <span className='text-[#5EFF91]'>Summary.</span></h2>
       </motion.div>
       <motion.p
         variants = {fadeIn("", "", 0.1, 1)}

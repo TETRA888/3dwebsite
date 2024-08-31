@@ -65,7 +65,7 @@ const Works = () => {
           My work
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Selected Projects.
+        <span className='text-[#FF915E]'>Selected</span> <span className='text-[#5EFF91]'>Projects.</span>
         </h2>
       </motion.div>
 
@@ -74,7 +74,7 @@ const Works = () => {
         variants = {fadeIn("", "", 0.1, 1)}
           className = "mt-3 text-secondary text-[17px] max-w-3x1 leading-[30px]"
           >
-            The projects depicted reveal my current skills and abilities stack being applied to both real world projects and theoretical projects
+            The projects depicted below showcases the projects that I have been working on so far in college!
         </motion.p>
       </div>
       <div className = "mt-20 flex flex-wrap gap-7 justify-center">

@@ -101,10 +101,6 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
   ];
   
   const experiences = [
