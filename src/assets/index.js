@@ -32,7 +32,7 @@ import starbucks from "./company/ucprc.png";
 import tesla from "./company/gsm.PNG";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import jobit from "./jobit.jpg";
 import tripguide from "./tripguide.png";
 
 export {

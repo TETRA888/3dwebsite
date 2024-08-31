@@ -187,67 +187,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Remote Controlled Rover",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Crude RC rover that I made (mostly) from scratch. It utilizes basic analog transmitter and reciever circuits. It is controlled via the Arduino Mega and Nano.",
       tags: [
         {
-          name: "react",
+          name: "Arduino",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Hardware Design",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "C",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/TETRA888/TetraDrive",
     },
     {
-      name: "Job IT",
+      name: "Crude 3D Mesh Reconstruction",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Designed a simple pipeline that creates a 3D model from an Ai generated image",
       tags: [
         {
-          name: "react",
+          name: "Transformers",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Pytorch",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "Stable Diffusion",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://www.tetradrive.org/text-3d-mesh-generation",
+    },
+    {
+      name: "Caltrans Data Logger",
+      description:
+        "Helped build and program the data logging electric panel in C to monitor test track locations using 16 strain gauge sensors and 21 thermocouples",
+      tags: [
+        {
+          name: "Campbell Scientific",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Hardware Design",
+          color: "green-text-gradient",
+        },
+        {
+          name: "C",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://engineering.ucdavis.edu/news/uc-davis-partnered-pavement-research-center-receives-32-million-interagency-agreement-caltrans",
     },
   ];
   

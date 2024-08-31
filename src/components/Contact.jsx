@@ -63,7 +63,7 @@ const Contact = () => {
           Get in touch
         </p>
         <h3 className = {styles.sectionHeadText}>
-          Contact.
+        <span className='text-[#915eff]'>Contact.</span>
         </h3>
         <form
           ref = {formRef}
