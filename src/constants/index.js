@@ -47,11 +47,11 @@ import {
   
   const services = [
     {
-      title: "VR Developer",
+      title: "VR Environment Developer",
       icon: web,
     },
     {
-      title: "3D Mesh Developer",
+      title: "3D Mesh Generation",
       icon: mobile,
     },
     {
@@ -109,12 +109,12 @@ import {
       company_name: "UC Pavement Research Center | Davis • Berkeley",
       icon: starbucks,
       iconBg: "#FFFFFF ",
-      date: "January 2022 - Present",
+      date: "June 2022 - Present",
       points: [
-        "HVS Setup: Assisted in building the Heavy Vehicle Simulator (HVS) for Caltrans.",
-        "Data Logging System: Developed a system to monitor test tracks using strain gauge and thermocouple sensors.",
-        "Technical Assembly: Used Campbell Scientific peripherals to build and program the data logger in C.",
-        "Team Collaboration: Worked with Ph.D. and M.S. students on the Caltrans Fiber project.",
+        "Profilometer Development: Directly working with a lead engineer and lab manager to design and build a new Profilometer with a LiDAR scanner for pavement crack detection and 3D mapping.",
+        "HVS Setup: Assisting in building the Heavy Vehicle Simulator (HVS) for the Caltrans pavement sustainability project.",
+        "Data Logging System: Developing a system to monitor test tracks using strain gauge and thermocouple sensors.",
+        "Team Collaboration: Working with Ph.D. and M.S. students on the Caltrans Fiber project.",
       ],
     },
     {
@@ -122,7 +122,7 @@ import {
       company_name: "UC Davis Graduate School of Management",
       icon: tesla,
       iconBg: "#FFFFFF",
-      date: "November 2023 – Present",
+      date: "November 2023 – June 2023",
       points: [
         "VR Environment Development: Creating a VR environment for E-Commerce research under Prof. Pantelis Loupos.",
         "Collaboration: Working with a former Meta Tech Lead on project development.",

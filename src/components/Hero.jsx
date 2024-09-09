@@ -14,22 +14,26 @@ const Hero = () => {
       <div>
         <h1 className={`${styles.heroHeadText} text-white`}><span className='text-[#FF915E]'>Hi,</span> <span className='text-[#5EFF91]'>I'm</span>  <span className='text-[#915eff]'>Asad</span></h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-        A Computer Engineering student who merges technical precision with artistic vision in 3D
+        A Computer Engineer passionate about creating large-scale systems and innovating with 3D generative technologies.
         <br className='sm:block hidden'/>
         </p>
 
       </div>
     </div>
 
-    <StarsCanvas />
-
     <ComputersCanvas />
   
     <div className="absolute w-full flex justify-center items-center z-20" style={{ bottom: '200px' }}>
-        <a href="https://github.com/TETRA888/CalculatedMonkeys" target="_blank" rel="noopener noreferrer" className="text-white text-sm">
-          <p>View my model script on GitHub</p>
-        </a>
-    </div>
+  <a
+    href="https://github.com/TETRA888/CalculatedMonkeys"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white text-sm px-4 py-2 border-4 border-secondary rounded-full hover:bg-secondary hover:text-black transition-all"
+  >
+    View my model script on GitHub
+  </a>
+</div>
+
 
     <div className="absolute xs:bottom-10
     bottom-10 w-full flex justify-center items-center">

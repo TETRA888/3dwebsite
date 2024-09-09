@@ -65,7 +65,7 @@ const Works = () => {
           My work
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-        <span className='text-[#FF915E]'>Selected</span> <span className='text-[#5EFF91]'>Projects.</span>
+        <span className='text-[#FF915E]'>Personal</span> <span className='text-[#5EFF91]'>Projects.</span>
         </h2>
       </motion.div>
 
